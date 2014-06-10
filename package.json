@@ -1,0 +1,29 @@
+{
+  "name": "package-good",
+  "version": "0.0.0",
+  "description": "naive judge of the quality of a `package.json` for an open source project",
+  "main": "good.js",
+  "scripts": {
+    "test": "jasmine-node test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/btford/package-good.git"
+  },
+  "keywords": [
+    "oss",
+    "package.json",
+    "npm",
+    "modules",
+    "discoverability"
+  ],
+  "author": "Brian Ford <btford@umich.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btford/package-good/issues"
+  },
+  "homepage": "https://github.com/btford/package-good",
+  "devDependencies": {
+    "jasmine-node": "^1.14.3"
+  }
+}
