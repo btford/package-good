@@ -18,6 +18,18 @@
     "discoverability"
   ],
   "author": "Brian Ford <btford@umich.edu>",
+  "maintainers": [
+    {
+      "name": "Brian Ford",
+      "email": "btford@umich.edu",
+      "web": "http://briantford.com"
+    },
+    {
+      "name": "Kent C. Dodds",
+      "email": "kent@doddsfamily.us",
+      "web": "http://kent.doddsfamily.us"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/btford/package-good/issues"
