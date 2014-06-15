@@ -1,6 +1,6 @@
 {
   "name": "package-good",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "naive judge of the quality of a `package.json` for an open source project",
   "main": "good.js",
   "scripts": {
