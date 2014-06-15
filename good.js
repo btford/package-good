@@ -1,5 +1,11 @@
 module.exports = function (json) {
+
+  var moreThanOneMaintainer = (json.maintainers && json.maintainers.length > 1)
+
   return {
-    maintainers: ~~(json.maintainers && json.maintainers.length > 1)
-  }
+    maintainers: {
+      score: ~~moreThanOneMaintainer,
+      suggestions: moreThanOneMaintainer ? [] : [ 'add another maintainer' ]
+    }
+  };
 };
